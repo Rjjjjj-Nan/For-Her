@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 440" role="img" aria-labelledby="title desc">
+  <title id="title">A sweet sample memory</title>
+  <desc id="desc">Two little characters holding a heart beneath a pink sunset.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6c8d2"/>
+      <stop offset="1" stop-color="#fde9dc"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c98b8f"/>
+      <stop offset="1" stop-color="#a65d69"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="440" rx="28" fill="url(#sky)"/>
+  <circle cx="466" cy="108" r="57" fill="#fff0c9" opacity=".9"/>
+  <path d="M0 305c85-58 138-34 211-16 88 22 151-44 229-29 75 14 106 54 160 35v145H0Z" fill="url(#ground)"/>
+  <path d="M0 357c83-27 124-8 190 3 76 13 121-26 196-20 79 6 128 38 214 13v87H0Z" fill="#8e505e" opacity=".55"/>
+  <g stroke="#533638" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M211 203c-35-49-102-23-92 32 7 39 61 61 92 88 31-27 85-49 92-88 10-55-57-81-92-32Z" fill="#ff6670"/>
+    <path d="M191 292c-4 38-1 68 14 91" fill="none"/>
+    <path d="M248 292c5 38 1 68-14 91" fill="none"/>
+    <path d="M138 191c-39 4-57 36-44 71 10 26 34 40 63 46" fill="#b98465"/>
+    <path d="M287 191c39 4 57 36 44 71-10 26-34 40-63 46" fill="#fffaf3"/>
+    <path d="M121 167c6-42 45-62 91-62s85 20 91 62l-11 28H132Z" fill="#87b5dc"/>
+    <path d="M110 195c51-35 139-35 204 0l-20 42c-51-30-129-30-184 0Z" fill="#a9cef0"/>
+    <path d="M274 167c6-42 45-62 91-62s85 20 91 62l-11 28H285Z" fill="#e98fa2"/>
+    <path d="M263 195c51-35 139-35 204 0l-20 42c-51-30-129-30-184 0Z" fill="#f4aabe"/>
+    <circle cx="165" cy="184" r="8" fill="#533638" stroke="none"/>
+    <circle cx="245" cy="184" r="8" fill="#533638" stroke="none"/>
+    <circle cx="317" cy="184" r="8" fill="#533638" stroke="none"/>
+    <circle cx="397" cy="184" r="8" fill="#533638" stroke="none"/>
+    <path d="M193 207q8 9 16 0m20 0q8 9 16 0" fill="none"/>
+    <path d="M345 207q8 9 16 0m20 0q8 9 16 0" fill="none"/>
+    <path d="M195 299q-19 23-13 52m70-52q19 23 13 52" fill="none"/>
+    <path d="M321 299q-19 23-13 52m70-52q19 23 13 52" fill="none"/>
+  </g>
+  <text x="300" y="402" fill="#fff8f2" font-family="cursive" font-size="25" text-anchor="middle">a little memory of us ♡</text>
+</svg>

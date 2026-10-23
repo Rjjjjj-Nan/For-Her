@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f9e6e7" />
+    <meta
+      name="description"
+      content="A little love letter, made just for you."
+    />
+    <title>A little letter for you</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="site-shell">
+      <section class="unlock-screen" id="unlock-screen" aria-labelledby="unlock-title">
+        <div class="cute-sticker sticker-one" aria-hidden="true">
+          <img src="couple-heart.png" alt="" />
+        </div>
+        <div class="cute-sticker sticker-two" aria-hidden="true">
+          <img src="couple-heart.png" alt="" />
+        </div>
+        <div class="cute-sticker sticker-three" aria-hidden="true">
+          <img src="couple-heart.png" alt="" />
+        </div>
+        <div class="cute-sticker sticker-four" aria-hidden="true">
+          <img src="couple-heart.png" alt="" />
+        </div>
+        <div class="floating-heart heart-one" aria-hidden="true">♡</div>
+        <div class="floating-heart heart-two" aria-hidden="true">♡</div>
+        <div class="unlock-card">
+          <div class="seal" aria-hidden="true">✦</div>
+          <p class="eyebrow">A tiny surprise for my favorite person</p>
+          <h1 id="unlock-title">Something special<br /><em>is waiting for you.</em></h1>
+          <p class="unlock-copy">
+            There’s a little note tucked away just for you. Enter the date our
+            story began to open it.
+          </p>
+          <form class="unlock-form" id="unlock-form">
+            <label for="anniversary">Our anniversary</label>
+            <div class="date-input-wrap">
+              <span aria-hidden="true">♡</span>
+              <input id="anniversary" name="anniversary" type="date" required />
+            </div>
+            <button type="submit" class="primary-button">
+              <span>Unlock my letter</span>
+              <span class="button-arrow" aria-hidden="true">→</span>
+            </button>
+            <p class="form-hint">Hint: the day we became us</p>
+            <p class="error-message" id="error-message" role="alert" aria-live="polite"></p>
+          </form>
+        </div>
+        <p class="footer-note">made with all my love <span aria-hidden="true">♡</span></p>
+      </section>
+
+      <section class="letter-screen is-hidden" id="letter-screen" aria-labelledby="letter-heading">
+        <div class="letter-sticker letter-sticker-one" aria-hidden="true">
+          <img src="couple-heart.png" alt="" />
+        </div>
+        <div class="letter-sticker letter-sticker-two" aria-hidden="true">
+          <img src="couple-heart.png" alt="" />
+        </div>
+        <div class="letter-sticker letter-sticker-three" aria-hidden="true">
+          <img src="couple-heart.png" alt="" />
+        </div>
+        <header class="letter-header">
+          <p class="eyebrow">For my favorite person</p>
+          <div class="header-sparkle" aria-hidden="true">✦</div>
+          <h1 id="letter-heading">A letter for <em>babyyy ko</em></h1>
+          <p class="date-stamp" id="date-stamp"></p>
+        </header>
+
+        <div class="letter-layout">
+          <div class="paper" id="letter-paper">
+            <div class="paper-tape" aria-hidden="true"></div>
+            <div class="paper-content">
+              <p class="letter-date" id="letter-date"></p>
+              <p class="greeting" id="letter-greeting"></p>
+              <div class="letter-body" id="letter-body"></div>
+              <p class="sign-off" id="letter-sign-off"></p>
+              <p class="signature" id="letter-signature"></p>
+            </div>
+            <div class="paper-flower flower-left" aria-hidden="true">✿</div>
+            <div class="paper-flower flower-right" aria-hidden="true">✽</div>
+          </div>
+
+          <aside class="memory-column">
+            <div class="memory-intro">
+              <span class="little-line" aria-hidden="true"></span>
+              <p>Our memories<br /><em>so far</em></p>
+            </div>
+            <div class="photo-grid" id="photo-grid"></div>
+            <p class="photo-note">Click a card to turn the page ♡</p>
+          </aside>
+        </div>
+
+        <button type="button" class="replay-button" id="replay-button">
+          <span aria-hidden="true">↻</span> Read it again
+        </button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
